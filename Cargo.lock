@@ -25,7 +25,7 @@ checksum = "cc30b1e1e8c40c121ca33b86c23308a090d19974ef001b4bf6e61fd1a0fb095c"
 
 [[package]]
 name = "two-factor-auth"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "base32",
  "hmac-sha1",
