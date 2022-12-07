@@ -3,6 +3,6 @@ Simple CLI to generate two-factor-auth token compatible with Google Authenticato
 USAGE:
 
 ```
-  cargo run base32_secret
+  cargo run your_base32_secret
 
 ```
