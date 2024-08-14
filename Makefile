@@ -1,6 +1,6 @@
 PLATFORMS:=x86_64-apple-darwin x86_64-unknown-linux-gnu x86_64-unknown-linux-musl aarch64-apple-darwin
 VERSION:=0.1.2
-CLI:=two-factor-auth
+CLI:=2fa
 HOST_TRIPLE := $(shell rustc -vV | grep 'host:' | awk '{print $$2}')
 
 all: $(PLATFORMS)
