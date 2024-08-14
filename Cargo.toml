@@ -1,8 +1,8 @@
 [package]
 name = "two-factor-auth"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
-authors = ["haihuiling2014@gmail.com"]
+authors = ["linghaihui <haihuiling2014@gmail.com>"]
 repository = "https://github.com/bujnlc8/two-factor-auth"
 description = "Simple CLI to generate two-factor-auth token compatible with Google Authenticator"
 license = "MIT"

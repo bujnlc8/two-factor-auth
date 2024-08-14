@@ -1,3 +1,4 @@
+#[derive(Debug)]
 pub struct TwoFactorAuth {
     pub secret: String,
     pub timestamp: u64,
