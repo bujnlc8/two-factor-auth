@@ -26,7 +26,7 @@ fn main() {
         let auth = two_factor_auth::TwoFactorAuth::new(secret_key, now);
         clear_current_line();
         print!(
-            "\x1b[1;5;46m {} \x1b[0m ({} second(s) remaining)",
+            "\x1b[1;46m {:06} \x1b[0m ({} second(s) remaining)",
             auth.calc(),
             30 - now % 30
         );
