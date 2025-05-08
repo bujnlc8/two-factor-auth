@@ -14,9 +14,9 @@ impl TwoFactorAuth {
 
     fn get_hmac(&self) -> Vec<u8> {
         if let Some(key) =
-            base32::decode(base32::Alphabet::RFC4648 { padding: (true) }, &self.secret)
+            base32::decode(base32::Alphabet::Rfc4648 { padding: (true) }, &self.secret)
         {
-            return hmacsha1::hmac_sha1(
+            return hmac_sha1::hmac_sha1(
                 key.as_slice(),
                 self.to_bytes(self.timestamp / 30).as_slice(),
             )
